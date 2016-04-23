@@ -1,0 +1,63 @@
+/* index.php */
+
+.no-articles {
+    font-size: 2.4em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.news-item {
+    margin: 10px 10px 15px 10px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+}
+
+.news-item h1 {
+    margin-bottom: 10px;
+}
+
+/* navbar.php */
+
+.header-item .tabs a {
+    border: 1px solid #f5f7fa;
+}
+
+/* article.php */
+
+.news-article .image {
+    border-radius: 3px;
+}
+
+/* user-articles.php */
+
+.user-no-articles {
+    font-size: 1.4em;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.articles-by {
+    font-size: 2.4em;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+/* new-article.php */
+
+textarea[name="preamble"] {
+    height: 4em;
+    min-height: 4em;
+}
+
+textarea[name="body"] {
+    height: 14em;
+    min-height: 14em;
+}
+
+/* footer.php */
+
+.is-text-centered {
+    text-align: center;
+}
