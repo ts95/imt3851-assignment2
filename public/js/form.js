@@ -62,6 +62,9 @@ $.form = function($form, validateURL) {
                 if ($elem.hasClass('button'))
                     continue;
 
+                if ($elem.attr('type') === 'hidden')
+                    continue;
+
                 $elem.parent().addClass('has-icon has-icon-right');
                 $elem.removeClass('is-success is-danger');
                 $elem.parent().find('.fa').remove();
